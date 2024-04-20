@@ -23,7 +23,8 @@ class FileStorage:
     def all(self, cls=None):
         """Return a dictionary of instantiated objects in __objects.
 
-        If a cls is specified, returns a dictionary of objects of that type.
+        If a cls is specified, returns
+        a dictionary of objects of that type.
         Otherwise, returns the __objects dictionary.
         """
         if cls is not None:
